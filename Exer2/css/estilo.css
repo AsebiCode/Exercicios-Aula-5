@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+figure {
+    margin: auto;
+    margin-top: 1.5em;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+figure > img {
+    width: 400px;
+    border-radius: 20px 20px 0 0;
+}
+
+figcaption {
+    padding: 1em;
+}
+
+figcaption h3 {
+    margin-top: 1em;
+}
+
+h1, .dist {
+    display: inline;
+}
+
+.dist {
+    margin-left: 120px;
+}
+
+.estrelas > img {
+    width: 120px;
+}
+
+h3 ~ p {
+    margin: 1em 0;
+    text-align: justify;
+}
+
+.dias {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.horario p {
+    display: inline;
+    margin-left: 20px;
+}
+
+.reserva {
+    margin-top: 10px;
+    font-size: 2em;
+    text-align: center;
+    color: teal;
+}
+
+.reserva:hover {
+    color: rgb(9, 28, 57);
+    cursor: pointer;
+}
